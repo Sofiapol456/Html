@@ -1,0 +1,22 @@
+:root{
+  --theme-color: #ffffff;
+  --primary-color: #124f88;
+  --secundary-color: #f7c331;
+  --text-color-inverse: #ffffff;
+  --text-color: #000000;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3a4460;
+}
+
+body {
+  font-family:'Anton', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+a {
+ text-decoration: none;
+ color: var(--text-color);
+}
+
+
