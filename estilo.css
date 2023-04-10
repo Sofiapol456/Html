@@ -1,20 +1,44 @@
-:root{
-    --theme-color: #FFFFFF;
-    --primary-color: #124f88;
-    --secundary-color: #f7c331;
-    --text-cololor-inverse: #ffffff;
-    --test-color: #000000;
-    --navbar-shallow-color: #e5e5e5;
-    --menu-mobile-background-color: #3a4460;
+body {
+    font-family: 'Bungee Shade', cursive;
 }
 
-body
-{font-family: sans-serif;
- background-color: var(--theme-color-);
- color: var(--text-color);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-  color: var(--text-color);
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu #item {
+    float: left;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu #item {
+    float: left;
+}
+
+#menu #item a {
+    background: rgba(11, 167, 76, 0.61);
+    color: rgb(242, 244, 247);
+    padding: 7px 5px;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#menu #item a:hover {
+    background: rgb(0, 153, 255);
 }
